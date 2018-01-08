@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Geanie Blanco - Small Business Marketing</title>
+
+  <!-- JQUERY -->
+  <script src="https://code.jquery.com/jquery.js"></script>
+
+  <!-- POPPER MINIFIED -->
+  <script src="public/assets/dependencies/popper.min.js"></script>
+
+  <!-- TOOLTIP.JS -->
+  <script src="public/assets/dependencies/tooltip.js"></script>
+
+  <!-- POPOVER.JS -->
+  <script src="public/assets/dependencies/popover.js"></script>
+
+  <!-- UTIL.JS -->
+  <script src="public/assets/dependencies/util.js"></script>
+
+  <!-- TYPEWRITER.JS -->
+  <script src="public/assets/dependencies/typewriter.js"></script>
+
+  <!-- BOOTSTRAP -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+  <!-- GOOGLE FONTS -->
+  <link href="https://fonts.googleapis.com/css?family=Give+You+Glory" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
+
+  <!-- LOCAL SHEETS -->
+  <script src="public/app.js"></script>
+  <link rel="stylesheet" href="public/assets/stylesheets/style.css">
+</head>
+
+<body>
+  <!-- HEADER -->
+  <div id="header">
+    <nav class="navbar navbar-expand-lg">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="row">
+      <div class="col"></div>
+      <div class="col-6">
+        <div id="title"></div>
+      </div>
+      <div class="col"></div>
+    </div>
+  </div>
+
+  <!-- MAIN PAGE INFORMATION -->
+  <div class="row" id="links">
+    <div class="col-3" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Learn more about my goals and hobbies.">
+      <a href="about.html">
+        <img src="public/assets/images/icons/aboutme.png" id="about-icon">
+        <h5 id="info-caption">ALL ABOUT ME</h5>
+      </a>
+    </div>
+
+    <div class="col-3" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Read my resume and check out my past projects.">
+      <a href="resume.html">
+        <img src="public/assets/images/icons/resume.png" id="resume-icon">
+        <h5 id="info-caption">WHAT I'VE DONE</h5>
+      </a>
+    </div>
+
+
+    <div class="col-3" data-container="body" data-toggle="popover" data-placement="bottom" data-content="See what I have to offer you and your business.">
+      <a href="services.html">
+        <img src="public/assets/images/icons/services.png" id="services-icon">
+        <h5 id="info-caption-services">WHAT I CAN DO</h5>
+    </a>
+    </div>
+
+    <div class="col-3" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Send me a quote request or just a quick hello!">
+      <a href="contact.html">
+        <img src="public/assets/images/icons/contact.png" id="contact-icon">
+        <h5 id="info-caption">LET'S GET CHATTING</h5>
+      </a>
+    </div>
+
+  </div>
+</body>
+
+</html>
