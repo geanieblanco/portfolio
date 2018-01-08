@@ -61,6 +61,7 @@ h1 {
 
 #left::-webkit-scrollbar {
     width: .5em;
+    color: $Teal;
 }
 
 #left::-webkit-scrollbar-track {
@@ -69,5 +70,5 @@ h1 {
 
 #left::-webkit-scrollbar-thumb {
   background-color: darkgrey;
-  outline: 1px solid slategrey;
+  outline: 1px solid $Teal;
 }
