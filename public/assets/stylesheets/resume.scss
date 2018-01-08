@@ -1,0 +1,71 @@
+$White: rgba(241%, 250%, 238%, 1);
+$Teal: rbga(19%, 137%, 151%, 1);
+$Red: #A11D1D;
+
+$title-font: 'Give You Glory', 'Helvetica', cursive;
+$body-font: 'Catamaran', serif;
+
+#header {
+  height: 10vh;
+  background-image: url('../images/header-background.jpg');
+  background-size: cover;
+  border-bottom: 3px solid black;
+}
+
+
+#about-icon, #home-icon, #contact-icon{
+  width: 100%;
+  margin-top: 35px;
+}
+
+ #services-icon {
+   width: 100%;
+   margin-top: 35px;
+ }
+
+#left {
+  max-width: 50%;
+  background-color: $White;
+  max-height: 100vh;
+  overflow-y: scroll;
+} h5 {
+  font-style: bold;
+}
+
+#right {
+  max-width: 50%;
+  background-color: $Teal;
+}
+
+#skills-row {
+  overflow-x:scroll;
+}
+
+#devcons {
+  font-size: 60px;
+  color: $Red;
+  padding-left: 10px;
+}
+
+h1 {
+  font-family: $title-font;
+  margin-top: 20px;
+}
+
+#right h3 {
+  margin-top: 5px;
+  padding-left:5px;
+}
+
+#left::-webkit-scrollbar {
+    width: .5em;
+}
+
+#left::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+#left::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
