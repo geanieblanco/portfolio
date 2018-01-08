@@ -10,18 +10,20 @@ $body-font: 'Catamaran', serif;
   background-image: url('../images/header-background.jpg');
   background-size: cover;
   border-bottom: 3px solid black;
+  position: fixed;
 }
 
+#body {
+  padding-top: 10vh;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
 
-#about-icon, #home-icon, #contact-icon{
+#about-icon, #home-icon, #contact-icon, #services-icon{
   width: 100%;
   margin-top: 35px;
 }
-
- #services-icon {
-   width: 100%;
-   margin-top: 35px;
- }
 
 #left {
   max-width: 50%;
