@@ -1,20 +1,3 @@
-#header {
-  height: 10vh;
-  background-image: url("../images/header-background.jpg");
-  background-size: cover;
-  border-bottom: 3px solid black;
-  position: fixed; }
-
-#body {
-  padding-top: 10vh;
-  position: relative;
-  height: 100vh;
-  width: 100%; }
-
-#about-icon, #home-icon, #contact-icon, #services-icon {
-  width: 100%;
-  margin-top: 35px; }
-
 html, body {
   background-color: #138997;
   font-family: 'Catamaran', serif;
@@ -50,6 +33,7 @@ button {
   border-radius: 3px; }
 
 #links, #link-caption {
+  margin-top: 10px;
   background-color: #138997;
   text-align: center; }
 
