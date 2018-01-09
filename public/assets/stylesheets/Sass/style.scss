@@ -1,5 +1,4 @@
 @import '_variables';
-@import '_pageheader.scss';
 
 html, body {
   background-color: #138997;
@@ -42,6 +41,7 @@ button {
 
 
 #links, #link-caption {
+  margin-top: 10px;
   background-color: #138997;
   text-align: center;
 }
