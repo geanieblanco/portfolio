@@ -1,13 +1,32 @@
+html, body {
+  background-color: #138997;
+  font-family: "Catamaran", serif;
+  font-size: 14px; }
+
+body {
+  overflow: visible !important; }
+
+nav a {
+  color: #A11D1D; }
+
+nav a:hover {
+  color: #138997; }
+
+a:link {
+  text-decoration: none; }
+
+body {
+  overflow: visible !important; }
+
 #header {
   height: 10vh;
   background-image: url("../images/header-background.jpg");
   background-size: cover;
   border-bottom: 3px solid black;
-  position: fixed; }
+  width: 100%; }
 
 #body {
   padding-top: 10vh;
-  position: relative;
   height: 100vh;
   width: 100%; }
 
@@ -29,7 +48,7 @@ h5 {
   background-color: rbga(19%, 137%, 151%, 1); }
 
 #skills-row {
-  overflow-y: scroll; }
+  overflow-x: scroll; }
 
 #devcons {
   font-size: 60px;
@@ -43,6 +62,10 @@ h1 {
 #right h3 {
   margin-top: 5px;
   padding-left: 5px; }
+
+body::-webkit-scrollbar {
+  width: 0 !important;
+  height: 0 !important; }
 
 #left::-webkit-scrollbar {
   width: .5em; }

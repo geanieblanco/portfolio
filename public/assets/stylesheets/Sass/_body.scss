@@ -1,0 +1,19 @@
+html, body {
+  background-color: #138997;
+  font-family: $body-font;
+  font-size: 14px;
+}
+
+body {
+  overflow: visible !important;
+}
+
+nav a {
+  color: #A11D1D;
+} nav a:hover {
+  color: #138997;
+}
+
+a:link {
+  text-decoration: none;
+}

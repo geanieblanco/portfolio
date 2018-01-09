@@ -1,7 +1,10 @@
 html, body {
   background-color: #138997;
-  font-family: 'Catamaran', serif;
+  font-family: "Catamaran", serif;
   font-size: 14px; }
+
+body {
+  overflow: visible !important; }
 
 nav a {
   color: #A11D1D; }
@@ -12,6 +15,9 @@ nav a:hover {
 a:link {
   text-decoration: none; }
 
+body {
+  overflow: hidden; }
+
 #header {
   background-image: url("../images/header-background.jpg");
   background-size: cover;
@@ -19,10 +25,10 @@ a:link {
   width: 100%; }
 
 #title {
-  margin-top: 200px;
+  margin-top: 245px;
   color: white;
   font-size: 60px;
-  font-family: 'Give You Glory', 'Helvetica', cursive;
+  font-family: "Give You Glory", "Helvetica", cursive;
   text-align: center; }
 
 button {
@@ -46,13 +52,17 @@ button {
   margin-top: 35px; }
 
 #info-caption {
-  font-family: 'Give You Glory', 'Helvetica', cursive;
+  font-family: "Give You Glory", "Helvetica", cursive;
   margin-top: 20px;
   color: black; }
 
 #info-caption-services {
-  font-family: 'Give You Glory', 'Helvetica', cursive;
+  font-family: "Give You Glory", "Helvetica", cursive;
   margin-top: 5px;
   color: black; }
+
+body::-webkit-scrollbar {
+  width: 0 !important;
+  height: 0 !important; }
 
 /*# sourceMappingURL=style.css.map */

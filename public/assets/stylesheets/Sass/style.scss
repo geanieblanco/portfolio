@@ -1,19 +1,8 @@
 @import '_variables';
+@import '_body';
 
-html, body {
-  background-color: #138997;
-  font-family: 'Catamaran', serif;
-  font-size: 14px;
-}
-
-nav a {
-  color: #A11D1D;
-} nav a:hover {
-  color: #138997;
-}
-
-a:link {
-  text-decoration: none;
+body {
+    overflow: hidden;
 }
 
 #header {
@@ -24,10 +13,10 @@ a:link {
 }
 
 #title {
-  margin-top: 200px;
+  margin-top: 245px;
   color: white;
   font-size: 60px;
-  font-family: 'Give You Glory', 'Helvetica', cursive;
+  font-family: $title-font;
   text-align: center;
 }
 
@@ -57,13 +46,18 @@ button {
  }
 
 #info-caption {
-  font-family: 'Give You Glory', 'Helvetica', cursive;
+  font-family: $title-font;
   margin-top:20px;
   color:black;
 }
 
 #info-caption-services {
-  font-family: 'Give You Glory', 'Helvetica', cursive;
+  font-family: $title-font;
   margin-top:5px;
   color:black;
+}
+
+body::-webkit-scrollbar {
+   width: 0 !important;
+   height: 0 !important;
 }
