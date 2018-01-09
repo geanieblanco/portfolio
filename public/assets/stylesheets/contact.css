@@ -4,7 +4,7 @@ html, body {
   font-size: 14px; }
 
 body {
-  overflow: visible !important; }
+  overflow: hidden !important; }
 
 nav a {
   color: #A11D1D; }

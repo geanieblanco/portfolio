@@ -30,7 +30,7 @@ $(document).ready(function() {
     loop: false
   });
 
-  typewriter.typeString("Hi there! I'm Geanie. \n How can I help you?")
+  typewriter.typeString("Hi there! I'm Geanie. \n How can I help you? ")
     .pauseFor(1000)
     .start();
 

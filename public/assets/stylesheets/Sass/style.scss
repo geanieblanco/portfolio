@@ -1,10 +1,6 @@
 @import '_variables';
 @import '_body';
 
-body {
-    overflow: hidden;
-}
-
 #header {
   background-image: url('../images/header-background.jpg');
   background-size:cover;
@@ -13,11 +9,12 @@ body {
 }
 
 #title {
-  margin-top: 245px;
+  margin-top: 210px;
   color: white;
   font-size: 60px;
   font-family: $title-font;
   text-align: center;
+  width: 50%;
 }
 
 button {
@@ -55,9 +52,4 @@ button {
   font-family: $title-font;
   margin-top:5px;
   color:black;
-}
-
-body::-webkit-scrollbar {
-   width: 0 !important;
-   height: 0 !important;
 }

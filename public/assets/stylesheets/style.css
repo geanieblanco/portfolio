@@ -4,7 +4,7 @@ html, body {
   font-size: 14px; }
 
 body {
-  overflow: visible !important; }
+  overflow: hidden !important; }
 
 nav a {
   color: #A11D1D; }
@@ -15,9 +15,6 @@ nav a:hover {
 a:link {
   text-decoration: none; }
 
-body {
-  overflow: hidden; }
-
 #header {
   background-image: url("../images/header-background.jpg");
   background-size: cover;
@@ -25,11 +22,12 @@ body {
   width: 100%; }
 
 #title {
-  margin-top: 245px;
+  margin-top: 210px;
   color: white;
   font-size: 60px;
   font-family: "Give You Glory", "Helvetica", cursive;
-  text-align: center; }
+  text-align: center;
+  width: 50%; }
 
 button {
   background-color: rgba(0, 0, 0, 0);
@@ -60,9 +58,5 @@ button {
   font-family: "Give You Glory", "Helvetica", cursive;
   margin-top: 5px;
   color: black; }
-
-body::-webkit-scrollbar {
-  width: 0 !important;
-  height: 0 !important; }
 
 /*# sourceMappingURL=style.css.map */
