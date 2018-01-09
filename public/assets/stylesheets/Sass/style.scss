@@ -1,0 +1,69 @@
+@import '_variables';
+@import '_pageheader.scss';
+
+html, body {
+  background-color: #138997;
+  font-family: 'Catamaran', serif;
+  font-size: 14px;
+}
+
+nav a {
+  color: #A11D1D;
+} nav a:hover {
+  color: #138997;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+#header {
+  background-image: url('../images/header-background.jpg');
+  background-size:cover;
+  height: 450px;
+  width: 100%;
+}
+
+#title {
+  margin-top: 200px;
+  color: white;
+  font-size: 60px;
+  font-family: 'Give You Glory', 'Helvetica', cursive;
+  text-align: center;
+}
+
+button {
+  background-color: rgba(0,0,0,.0);
+  color: #F1FAEE;
+  border-width: 1px;
+  border-color: #F1FAEE;
+  border-radius: 3px;
+}
+
+
+#links, #link-caption {
+  background-color: #138997;
+  text-align: center;
+}
+
+#about-icon, #resume-icon, #contact-icon{
+  width: 30%;
+  margin-top: 35px;
+}
+
+ #services-icon {
+   width: 35%;
+   margin-top: 35px;
+ }
+
+#info-caption {
+  font-family: 'Give You Glory', 'Helvetica', cursive;
+  margin-top:20px;
+  color:black;
+}
+
+#info-caption-services {
+  font-family: 'Give You Glory', 'Helvetica', cursive;
+  margin-top:5px;
+  color:black;
+}
