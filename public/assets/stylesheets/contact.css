@@ -35,7 +35,10 @@ body {
   margin-top: 35px; }
 
 label {
-  font-family: "Give You Glory", "Helvetica", cursive;
+  font-family: "Catamaran", serif;
   font-size: 15px; }
+
+.form-group {
+  margin-top: -5px; }
 
 /*# sourceMappingURL=contact.css.map */
