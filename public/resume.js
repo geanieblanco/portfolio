@@ -1,5 +1,5 @@
 //Resume Language Tooltip
-$('[data-toggle="tooltip"]').tooltip(
+$('#devcons').tooltip(
   {
   placement: 'top',
 }
