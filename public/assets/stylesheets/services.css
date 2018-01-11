@@ -41,8 +41,15 @@ h1 {
 #services2 {
   margin-top: 15px; }
 
-#events-card {
-  height: 200px;
-  overflow-x: scroll; }
+.card-header {
+  background-color: #A11D1D; }
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px; }
+
+a:hover {
+  color: black; }
 
 /*# sourceMappingURL=services.css.map */
