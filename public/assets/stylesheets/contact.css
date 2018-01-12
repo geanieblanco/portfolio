@@ -1,0 +1,46 @@
+body,
+html {
+  background-color: #138997;
+  font-family: "Catamaran", serif;
+  font-size: 14px; }
+
+body {
+  overflow: hidden !important; }
+
+a {
+  text-decoration: none;
+  color: #A11D1D;
+  font-weight: 700; }
+  a :hover {
+    color: #08777C; }
+
+body {
+  overflow: visible !important; }
+
+#header {
+  height: 10vh;
+  background-image: url("../images/header-background.jpg");
+  background-size: cover;
+  border-bottom: 3px solid black;
+  width: 100%; }
+
+#body {
+  padding-top: 10vh;
+  height: 100vh;
+  width: 100%; }
+
+#about-icon, #home-icon, #contact-icon, #services-icon {
+  width: 100%;
+  margin-top: 35px; }
+
+#contact-form label {
+  font-family: "Catamaran", serif;
+  font-size: 15px; }
+
+.form-group {
+  margin-top: -10px; }
+
+#social #fab {
+  height: 10%; }
+
+/*# sourceMappingURL=contact.css.map */

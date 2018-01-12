@@ -1,0 +1,20 @@
+body,
+html {
+  background-color: #138997;
+  font-family: $body-font;
+  font-size: 14px;
+}
+
+body {
+  overflow: hidden !important;
+}
+
+a {
+  text-decoration: none;
+  color: $Red;
+  font-weight: 700;
+
+  :hover {
+    color: $Dark-Teal;
+  }
+}

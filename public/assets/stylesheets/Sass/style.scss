@@ -1,0 +1,62 @@
+@import '_variables';
+@import '_body';
+
+#header {
+  background-image: url('../images/header-background.jpg');
+  background-size:cover;
+  height: 450px;
+  width: 100%;
+}
+
+#title {
+  margin-top: 210px;
+  color: white;
+  font-size: 60px;
+  font-family: $title-font;
+  text-align: center;
+  width: 50%;
+}
+
+button {
+  background-color: rgba(0,0,0,.0);
+  color: #F1FAEE;
+  border-width: 1px;
+  border-color: #F1FAEE;
+  border-radius: 3px;
+}
+
+
+#links, #link-caption {
+  margin-top: 10px;
+  background-color: #138997;
+  text-align: center;
+}
+
+#about-icon, #resume-icon, #contact-icon{
+  width: 30%;
+  margin-top: 35px;
+}
+
+ #services-icon {
+   width: 35%;
+   margin-top: 35px;
+ }
+
+#info-caption {
+  font-family: $title-font;
+  margin-top:20px;
+  color:black;
+}
+
+#info-caption-services {
+  font-family: $title-font;
+  margin-top:5px;
+  color:black;
+}
+
+#footer {
+  background-color: $Dark-Teal;
+  h6 {
+    padding-top: 5px;
+  }
+}

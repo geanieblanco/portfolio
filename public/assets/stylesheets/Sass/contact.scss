@@ -1,0 +1,20 @@
+@import '_variables';
+@import '_body';
+@import '_pageheader';
+
+#contact-form {
+  label {
+    font-family: $body-font;
+    font-size: 15px;
+  }
+}
+
+.form-group {
+  margin-top: -10px;
+}
+
+#social {
+  #fab {
+    height: 10%;
+  }
+}

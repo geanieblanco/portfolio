@@ -1,79 +1,66 @@
-html, body {
+body,
+html {
   background-color: #138997;
-  font-family: 'Catamaran', serif;
-  font-size: 14px;
-}
+  font-family: "Catamaran", serif;
+  font-size: 14px; }
 
-nav a {
-  color: #A11D1D;
-} nav a:hover {
-  color: #138997;
-}
+body {
+  overflow: hidden !important; }
 
-a:link {
+a {
   text-decoration: none;
-}
+  color: #A11D1D;
+  font-weight: 700; }
+  a :hover {
+    color: #08777C; }
 
 #header {
-  background-image: url('../images/header-background.jpg');
-  background-size:cover;
+  background-image: url("../images/header-background.jpg");
+  background-size: cover;
   height: 450px;
-}
+  width: 100%; }
 
 #title {
-  margin-top: 200px;
+  margin-top: 210px;
   color: white;
   font-size: 60px;
-  font-family: 'Give You Glory', 'Helvetica', cursive;
+  font-family: "Give You Glory", "Helvetica", cursive;
   text-align: center;
-}
+  width: 50%; }
 
 button {
-  background-color: rgba(0,0,0,.0);
+  background-color: rgba(0, 0, 0, 0);
   color: #F1FAEE;
   border-width: 1px;
   border-color: #F1FAEE;
-  border-radius: 3px;
-}
-
+  border-radius: 3px; }
 
 #links, #link-caption {
+  margin-top: 10px;
   background-color: #138997;
-  text-align: center;
-}
+  text-align: center; }
 
-#about-icon, #resume-icon, #contact-icon{
+#about-icon, #resume-icon, #contact-icon {
   width: 30%;
-  margin-top: 35px;
-}
+  margin-top: 35px; }
 
- #services-icon {
-   width: 35%;
-   margin-top: 35px;
- }
+#services-icon {
+  width: 35%;
+  margin-top: 35px; }
 
 #info-caption {
-  font-family: 'Give You Glory', 'Helvetica', cursive;
-  margin-top:20px;
-  color:black;
-}
+  font-family: "Give You Glory", "Helvetica", cursive;
+  margin-top: 20px;
+  color: black; }
 
 #info-caption-services {
-  font-family: 'Give You Glory', 'Helvetica', cursive;
-  margin-top:5px;
-  color:black;
-}
+  font-family: "Give You Glory", "Helvetica", cursive;
+  margin-top: 5px;
+  color: black; }
 
-#body::-webkit-scrollbar {
-    width: .5em;
-    color: $Teal;
-}
+#footer {
+  background-color: #08777C; }
+  #footer h6 {
+    padding-top: 5px; }
 
-#body::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-}
-
-#body::-webkit-scrollbar-thumb {
-  background-color: darkgrey;
-  outline: 1px solid $Teal;
-}
+/*# sourceMappingURL=style.css.map */
