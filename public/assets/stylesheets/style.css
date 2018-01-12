@@ -1,4 +1,5 @@
-html, body {
+body,
+html {
   background-color: #138997;
   font-family: "Catamaran", serif;
   font-size: 14px; }
@@ -6,14 +7,12 @@ html, body {
 body {
   overflow: hidden !important; }
 
-nav a {
-  color: #A11D1D; }
-
-nav a:hover {
-  color: #138997; }
-
-a:link {
-  text-decoration: none; }
+a {
+  text-decoration: none;
+  color: #A11D1D;
+  font-weight: 700; }
+  a :hover {
+    color: #08777C; }
 
 #header {
   background-image: url("../images/header-background.jpg");
@@ -58,5 +57,10 @@ button {
   font-family: "Give You Glory", "Helvetica", cursive;
   margin-top: 5px;
   color: black; }
+
+#footer {
+  background-color: #08777C; }
+  #footer h6 {
+    padding-top: 5px; }
 
 /*# sourceMappingURL=style.css.map */

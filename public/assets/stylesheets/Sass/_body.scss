@@ -1,4 +1,5 @@
-html, body {
+body,
+html {
   background-color: #138997;
   font-family: $body-font;
   font-size: 14px;
@@ -8,12 +9,12 @@ body {
   overflow: hidden !important;
 }
 
-nav a {
-  color: #A11D1D;
-} nav a:hover {
-  color: #138997;
-}
-
-a:link {
+a {
   text-decoration: none;
+  color: $Red;
+  font-weight: 700;
+
+  :hover {
+    color: $Dark-Teal;
+  }
 }

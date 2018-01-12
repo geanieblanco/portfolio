@@ -1,4 +1,5 @@
-html, body {
+body,
+html {
   background-color: #138997;
   font-family: "Catamaran", serif;
   font-size: 14px; }
@@ -6,14 +7,12 @@ html, body {
 body {
   overflow: hidden !important; }
 
-nav a {
-  color: #A11D1D; }
-
-nav a:hover {
-  color: #138997; }
-
-a:link {
-  text-decoration: none; }
+a {
+  text-decoration: none;
+  color: #A11D1D;
+  font-weight: 700; }
+  a :hover {
+    color: #08777C; }
 
 body {
   overflow: visible !important; }
@@ -34,11 +33,14 @@ body {
   width: 100%;
   margin-top: 35px; }
 
-label {
+#contact-form label {
   font-family: "Catamaran", serif;
   font-size: 15px; }
 
 .form-group {
-  margin-top: -5px; }
+  margin-top: -10px; }
+
+#social #fab {
+  height: 10%; }
 
 /*# sourceMappingURL=contact.css.map */

@@ -7,8 +7,23 @@
   background-color: $White;
   max-height: 100vh;
   overflow-y: scroll;
-} h5 {
-  font-style: bold;
+
+  h5 {
+    font-style: bold;
+  }
+  ::-webkit-scrollbar {
+    width: 0.5em;
+  }
+
+  ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    color: $Teal;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid $Teal;
+  }
 }
 
 #right {
@@ -17,7 +32,7 @@
 }
 
 #skills-row {
-  overflow-x:scroll;
+  overflow-x: scroll;
 }
 
 #devcons {
@@ -31,22 +46,9 @@ h1 {
   margin-top: 20px;
 }
 
-#right h3 {
-  margin-top: 5px;
-  padding-left:5px;
-}
-
-
-#left::-webkit-scrollbar {
-    width: .5em;
-}
-
-#left::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-    color: $Teal;
-}
-
-#left::-webkit-scrollbar-thumb {
-  background-color: darkgrey;
-  outline: 1px solid $Teal;
+#right {
+  h3 {
+    margin-top: 5px;
+    padding-left: 5px;
+  }
 }

@@ -1,4 +1,5 @@
-html, body {
+body,
+html {
   background-color: #138997;
   font-family: "Catamaran", serif;
   font-size: 14px; }
@@ -6,14 +7,12 @@ html, body {
 body {
   overflow: hidden !important; }
 
-nav a {
-  color: #A11D1D; }
-
-nav a:hover {
-  color: #138997; }
-
-a:link {
-  text-decoration: none; }
+a {
+  text-decoration: none;
+  color: #A11D1D;
+  font-weight: 700; }
+  a :hover {
+    color: #08777C; }
 
 body {
   overflow: visible !important; }
@@ -42,17 +41,14 @@ body {
   overflow-y: scroll;
   height: 450px;
   width: 100%; }
-
-::-webkit-scrollbar {
-  width: .5em; }
-
-::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-  color: rbga(19%, 137%, 151%, 1); }
-
-::-webkit-scrollbar-thumb {
-  background-color: darkgrey;
-  outline: 1px solid rbga(19%, 137%, 151%, 1); }
+  .card-body ::-webkit-scrollbar {
+    width: 0.5em; }
+  .card-body ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    color: rbga(19%, 137%, 151%, 1); }
+  .card-body ::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid rbga(19%, 137%, 151%, 1); }
 
 h1 {
   font-family: "Give You Glory", "Helvetica", cursive;
@@ -65,8 +61,7 @@ h1 {
 a {
   text-decoration: none;
   color: white; }
-
-a:hover {
-  color: black; }
+  a :hover {
+    color: black; }
 
 /*# sourceMappingURL=services.css.map */
