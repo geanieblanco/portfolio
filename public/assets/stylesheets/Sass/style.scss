@@ -60,3 +60,11 @@ button {
     padding-top: 5px;
   }
 }
+
+a {
+  text-decoration: none;
+  decoration: none;
+  :hover {
+    text-decoration: none;
+  }
+}

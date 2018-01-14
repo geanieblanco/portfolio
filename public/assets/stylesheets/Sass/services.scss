@@ -9,7 +9,7 @@
 
 .card-body {
   overflow-y: scroll;
-  height: 450px;
+  height: 300px;
   width: 100%;
 
   ::-webkit-scrollbar {
@@ -35,7 +35,6 @@ h1 {
 .card-header {
   background-color: $Red;
   font-size: 10px;
-}
 
 a {
   text-decoration: none;
@@ -44,4 +43,5 @@ a {
   :hover {
     color: black;
   }
+}
 }
