@@ -33,7 +33,7 @@
   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 
   <!-- LOCAL SHEETS -->
-  <script src="resume.js"></script>
+  <script src="services.js"></script>
   <link rel="stylesheet" href="assets/stylesheets/style.css">
   <link rel="stylesheet" href="assets/stylesheets/resume.css">
 
@@ -165,57 +165,74 @@
     <div class="col-5" id="right">
       <h1 class="display-4">Skills</h1>
       <hr>
-      <div class="row">
-        <h3>Languages</h3>
-      </div>
+      <div id="accordion" role="tablist">
+        <!-- COLLAPSE 1 -->
+        <div class="card">
+          <div class="card-header rounded" role="tab" id="sm-header">
+            <h5 class="mb-0"><a data-toggle="collapse" href="#socialmedia" role="button" aria-expanded="true" aria-controls="socialmedia">Languages</a></h5>
+          </div>
+          <div id="socialmedia" class="collapse" role="tabpanel" aria-labelledby="sm-header" data-parent="#accordion">
+            <div class="card-body">
+              <i class="devicon-html5-plain" id="devcons" data-toggle="tooltip" data-placement="top" title="HTML 5"></i>
+              <i class="devicon-css3-plain" id="devcons" data-toggle="tooltip" data-placement="top" title="CSS 3"></i>
+              <i class="devicon-javascript-plain" id="devcons" data-toggle="tooltip" data-placement="top" title="JavaScript"></i>
+              <i class="devicon-php-plain" id="devcons" data-toggle="tooltip" data-placement="top" title="PHP"></i>
+            </div>
+          </div>
+        </div>
 
-      <div class="row">
-        <i class="devicon-html5-plain" id="devcons" data-toggle="tooltip" data-placement="top" title="HTML 5"></i>
-        <i class="devicon-css3-plain" id="devcons" data-toggle="tooltip" data-placement="top" title="CSS 3"></i>
-        <i class="devicon-javascript-plain" id="devcons" data-toggle="tooltip" data-placement="top" title="JavaScript"></i>
-        <i class="devicon-php-plain" id="devcons" data-toggle="tooltip" data-placement="top" title="PHP"></i>
-      </div>
+        <!-- COLLAPSE 2 -->
+        <div class="card">
+          <div class="card-header rounded" role="tab" id="wd-header">
+            <h5 class="mb-0"><a class="collapsed" data-toggle="collapse" href="#webdev" role="button" aria-expanded="false" aria-controls="collapseTwo">Libraries & Frameworks</a></h5>
+          </div>
+          <div id="webdev" class="collapse" role="tabpanel" aria-labelledby="wd-header" data-parent="#accordion">
+            <div class="card-body">
+              <i class="devicon-jquery-plain" id="devcons"></i>
+              <i class="devicon-mocha-plain" id="devcons"></i>
+              <i class="devicon-react-original" id="devcons" data-toggle="tooltip" data-placement="top" title="React.JS"></i>
+              <i class="devicon-nodejs-plain" id="devcons" data-toggle="tooltip" data-placement="top" title="Node.JS"></i>
+              <i class="devicon-bootstrap-plain" id="devcons" data-toggle="tooltip" data-placement="top" title="Bootstrap 4"></i>
+              <i class="devicon-express-original" id="devcons" data-toggle="tooltip" data-placement="top" title="Express"></i>
+            </div>
+          </div>
+        </div>
 
-      <div class="row">
-        <h3>Libraries & Frameworks</h3>
-      </div>
 
-      <div class="row" id="#skills-row">
-        <i class="devicon-jquery-plain" id="devcons"></i>
-        <i class="devicon-mocha-plain" id="devcons"></i>
-        <i class="devicon-react-original" id="devcons" data-toggle="tooltip" data-placement="top" title="React.JS"></i>
-        <i class="devicon-nodejs-plain" id="devcons" data-toggle="tooltip" data-placement="top" title="Node.JS"></i>
-        <i class="devicon-bootstrap-plain" id="devcons" data-toggle="tooltip" data-placement="top" title="Bootstrap 4"></i>
-        <i class="devicon-express-original" id="devcons" data-toggle="tooltip" data-placement="top" title="Express"></i>
-      </div>
+        <div class="card">
+          <div class="card-header rounded" role="tab" id="em-header">
+            <h5 class="mb-0"><a class="collapsed" data-toggle="collapse" href="#eventmarketing" role="button" aria-expanded="false" aria-controls="collapseThree">Processors & Programs</a></h5>
+          </div>
+          <div id="eventmarketing" class="collapse" role="tabpanel" aria-labelledby="em-header" data-parent="#accordion">
+            <div class="card-body" id="event-card">
+              <i class="devicon-sass-original" id="devcons"></i>
+              <i class="devicon-babel-plain" id="devcons"></i>
+              <i class="devicon-git-plain" id="devcons"></i>
+              <i class="devicon-mysql-plain" id="devcons"></i>
+              <i class="devicon-mongodb-plain" id="devcons"></i>
+              <i class="devicon-sequelize-plain" id="devcons"></i>
+            </div>
+          </div>
+        </div>
 
-      <div class="row" id="#skills-row">
-        <h3>Processors & Programs</h3>
-      </div>
-
-      <div class="row" id="#skills-row">
-        <i class="devicon-sass-original" id="devcons"></i>
-        <i class="devicon-babel-plain" id="devcons"></i>
-        <i class="devicon-git-plain" id="devcons"></i>
-        <i class="devicon-mysql-plain" id="devcons"></i>
-        <i class="devicon-mongodb-plain" id="devcons"></i>
-        <i class="devicon-sequelize-plain" id="devcons"></i>
-      </div>
-
-      <div class="row" id="#skills-row">
-        <h3>Applications</h3>
-      </div>
-
-      <div class="row" id="#skills-row">
-        <i class="devicon-atom-original" id="devcons"></i>
-        <i class="devicon-photoshop-plain" id="devcons"></i>
-        <i class="devicon-github-plain" id="devcons"></i>
-        <i class="devicon-slack-plain" id="devcons"></i>
-        <i class="devicon-firefox-plain" id="devcons"></i>
-        <i class="devicon-chrome-plain" id="devcons"></i>
-        <i class="devicon-heroku-plain" id="devcons"></i>
-        <i class="devicon-safari-plain" id="devcons"></i>
-
+        <!-- COLLAPSE 4 -->
+        <div class="card">
+          <div class="card-header rounded" role="tab" id="se-header">
+            <h5 class="mb-0"><a class="collapsed" data-toggle="collapse" href="#specialevents" role="button" aria-expanded="false" aria-controls="collapseFour">Applications</a></h5>
+          </div>
+          <div id="specialevents" class="collapse" role="tabpanel" aria-labelledby="se-header" data-parent="#accordion">
+            <div class="card-body" id="event-card">
+              <i class="devicon-atom-original" id="devcons"></i>
+              <i class="devicon-photoshop-plain" id="devcons"></i>
+              <i class="devicon-github-plain" id="devcons"></i>
+              <i class="devicon-slack-plain" id="devcons"></i>
+              <i class="devicon-firefox-plain" id="devcons"></i>
+              <i class="devicon-chrome-plain" id="devcons"></i>
+              <i class="devicon-heroku-plain" id="devcons"></i>
+              <i class="devicon-safari-plain" id="devcons"></i>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>

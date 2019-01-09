@@ -12,7 +12,8 @@ a {
   color: #A11D1D;
   font-weight: 700; }
   a :hover {
-    color: #08777C; }
+    color: #08777C;
+    text-decoration: none; }
 
 #header {
   background-image: url("../images/header-background.jpg");
@@ -62,5 +63,11 @@ button {
   background-color: #08777C; }
   #footer h6 {
     padding-top: 5px; }
+
+a {
+  text-decoration: none;
+  decoration: none; }
+  a :hover {
+    text-decoration: none; }
 
 /*# sourceMappingURL=style.css.map */

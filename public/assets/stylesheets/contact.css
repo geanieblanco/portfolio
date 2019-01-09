@@ -12,7 +12,8 @@ a {
   color: #A11D1D;
   font-weight: 700; }
   a :hover {
-    color: #08777C; }
+    color: #08777C;
+    text-decoration: none; }
 
 body {
   overflow: visible !important; }
